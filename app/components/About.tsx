@@ -26,7 +26,7 @@ const About = () => {
         </p>
       </div>
 
-      <div className="flex smm:grid w-[100%] my-0 mx-auto">
+      <div className="flex smm:grid w-[100%] smm:w-[90%] my-0 mx-auto">
         <ImageDesc
           main="Advanced Data Visualization"
           desc="Next-gen dashboards go beyond traditional charts and graphs, utilizing advanced visualization techniques such as heatmaps, network graphs, and 3D representations to convey complex relationships in the data."
@@ -38,9 +38,9 @@ const About = () => {
         />
       </div>
 
-      <div className="flex smm:grid w-[100%] my-0 mx-auto">
+      <div className="flex smm:grid w-[100%] smm:w-[90%] my-0 mx-auto">
         <Image
-          className="bg-gradient-to-b from-cyan to-purple-500 px-10 rounded-md pt-10 w-[40%] h-auto my-8 ml-32"
+          className="visible smm:hidden bg-gradient-to-b from-cyan to-purple-500 px-10 rounded-md pt-10 w-[40%] smm:w-full h-auto my-8 ml-32 smm:mx-0"
           src={Graph2}
           alt="graph2"
         />
@@ -48,15 +48,20 @@ const About = () => {
           main="Advanced Data Visualization"
           desc="Next-gen dashboards go beyond traditional charts and graphs, utilizing advanced visualization techniques such as heatmaps, network graphs, and 3D representations to convey complex relationships in the data."
         ></ImageDesc>
+        <Image
+          className="hidden smm:visible bg-gradient-to-b from-cyan to-purple-500 px-10 rounded-md pt-10 w-[40%] smm:w-full h-auto my-8 ml-32 smm:mx-0"
+          src={Graph2}
+          alt="graph2"
+        />
       </div>
 
-      <div className="flex smm:grid w-[100%] my-0 mx-auto">
+      <div className="flex smm:grid w-[100%] smm:w-[90%] my-0 mx-auto">
         <ImageDesc
           main="Advanced Data Visualization"
           desc="Next-gen dashboards go beyond traditional charts and graphs, utilizing advanced visualization techniques such as heatmaps, network graphs, and 3D representations to convey complex relationships in the data."
         ></ImageDesc>
         <Image
-          className="bg-gradient-to-b from-cyan to-purple-500 pt-20 pl-28 rounded-md w-[40%] h-auto my-8 mr-32"
+          className="bg-gradient-to-b from-cyan to-purple-500 pt-20 pl-28 rounded-md w-[40%] smm:w-full h-auto my-8 mr-32"
           src={Graph3}
           alt="graph"
         />
