@@ -3,7 +3,7 @@ import React from "react";
 const ImageDesc = (props: { main: string; desc: string }) => {
   return (
     <main className="w-full  md:w-2/3  mt-[10%]">
-      <h3 className="text-3xl px-[20%] smm:text-center font-bold">
+      <h3 className="text-5xl px-[20%] smm:text-center font-bold">
         {props.main}
       </h3>
       <p
