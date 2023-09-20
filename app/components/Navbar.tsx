@@ -40,7 +40,7 @@ export default function NavbarSide() {
       </NavbarContent>
 
       <NavbarBrand className="hidden sm:flex">
-        <Image className="w-[25%]" src={Logo} alt="logo" />
+        <Image className="w-[40%]" src={Logo} alt="logo" />
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
