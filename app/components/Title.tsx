@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+import circleText from "../../public/circleText.png";
 
 const Title = () => {
   return (
@@ -9,6 +11,9 @@ const Title = () => {
           Analytics
         </span>
       </h1>
+      <div className="absolute smm:relative animate-spinslow w-28 right-[20%] mt-10 smm:my-0 smm:mx-auto smm:right-0">
+        <Image src={circleText} alt=""></Image>
+      </div>
       <p className="text-center font-thin text-xl pb-10 pt-5 w-[40%] my-0 mx-auto">
         Real time AI-powered insights, advanced data visualization, and next
         level intelligent prediction capabilities.

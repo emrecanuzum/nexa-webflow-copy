@@ -45,28 +45,55 @@ export default function NavbarSide() {
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
           <Link
-            className="text-white text-sm font-light hover:text-purple-500"
+            className="pl-3 text-white text-sm font-light hover:text-spurple"
             href="#"
           >
-            Features
+            HOME
           </Link>
         </NavbarItem>
         <NavbarItem isActive>
           <Link
-            className="text-white text-sm font-light hover:text-purple-500"
+            className="pl-3 text-white text-sm font-light hover:text-spurple"
             aria-current="page"
             href="#"
           >
-            Customers
+            FEATURES
           </Link>
         </NavbarItem>
         <NavbarItem>
           <Link
             color="foreground"
-            className="text-white text-sm font-light hover:text-purple-500"
+            className="pl-3 text-white text-sm font-light hover:text-spurple"
             href="#"
           >
-            Integrations
+            INTEGRATIONS
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link
+            color="foreground"
+            className="pl-3 text-white text-sm font-light hover:text-spurple"
+            href="#"
+          >
+            PRICING
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link
+            color="foreground"
+            className="pl-3 text-white text-sm font-light hover:text-spurple"
+            href="#"
+          >
+            BLOG
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link
+            color="foreground"
+            className="pl-3 text-white text-sm font-light hover:text-spurple"
+            href="#"
+          >
+            FAQS
           </Link>
         </NavbarItem>
       </NavbarContent>
