@@ -14,16 +14,15 @@ const Landing = () => {
       <Title></Title>
       <div className={style.buttonbox}>
         <Button
-          className="mx-2 md:mx-5"
+          className="mx-2 md:mx-5 bg-spurple"
           size="lg"
-          color="secondary"
           radius="full"
           variant="shadow"
         >
           Download App
         </Button>
         <Button
-          className="mx-2 md:mx-5"
+          className="mx-2 md:mx-5 text-white border-white"
           size="lg"
           color="secondary"
           radius="full"
@@ -35,7 +34,7 @@ const Landing = () => {
 
       <div className={style.laptop}>
         <Image
-          className="w-[80%] md:w-[80%] mt-24 mb-16 mx-auto"
+          className="w-[80%] md:w-[80%] mt-24 mb-16 mx-auto drop-shadow-lg shadow-spurple"
           src={Laptop}
           alt="laptop"
         />

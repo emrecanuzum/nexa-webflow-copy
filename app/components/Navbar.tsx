@@ -28,7 +28,7 @@ export default function NavbarSide() {
   ];
 
   return (
-    <Navbar position="static" className=" pt-5 bg-transparent">
+    <Navbar position="static" className=" py-5 bg-transp">
       <NavbarContent className="sm:hidden" justify="start">
         <NavbarMenuToggle />
       </NavbarContent>
@@ -74,11 +74,12 @@ export default function NavbarSide() {
         <NavbarItem>
           <Button
             as={Link}
-            className="bg-white grid-flow-row"
+            className="bg-white grid-flow-row shadow-3xl shadow-white text-black rounded-full w-[120%]"
             href="#"
             variant="flat"
+            color="default"
           >
-            Learn More
+            LEARN MORE
           </Button>
         </NavbarItem>
       </NavbarContent>

@@ -8,7 +8,7 @@ import SolarImage from "../public/bg.jpeg";
 export default function Home() {
   return (
     <main
-      className=" bg-[url('../public/bg.jpeg')]
+      className="dark bg-[url('../public/bg.jpeg')]
     flex min-h-screen flex-col items-center bg-no-repeat"
     >
       <NavbarSide></NavbarSide>

@@ -17,7 +17,13 @@ const config: Config = {
       colors: {
         white: "#FFFFFF",
         black: "#000000",
-        cyan: "#22d3ee",
+        cyann: "#22d3ee",
+        bgcol: "#19181F",
+        transp: "#ffffff00",
+        spurple: "#786CFE",
+      },
+      boxShadow: {
+        "3xl": "0px 0px 30px 1px rgba(0, 0, 0, 0.3)",
       },
     },
   },

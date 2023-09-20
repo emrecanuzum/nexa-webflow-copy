@@ -12,11 +12,11 @@ const About = () => {
   return (
     <main>
       <div className="flex-col my-0 mx-auto">
-        <div className="flex sm:grid  my-0 mx-auto text-center justify-center">
+        <div className="flex smm:grid my-0 mx-auto text-center justify-center">
           <h2 className=" flex text-4xl lg:text-5xl  text-center font-bold">
             Intelligent
           </h2>
-          <div className="pl-2 lg:pl-4 text-4xl md:text-5xl text-center font-bold text-transparent line bg-clip-text bg-gradient-to-r from-purple-500 to-cyan">
+          <div className="flex pl-2 lg:pl-4 text-4xl md:text-5xl text-center font-bold text-transparent line bg-clip-text bg-gradient-to-r from-purple-500 to-cyann">
             Deep ML
           </div>
         </div>
@@ -32,7 +32,7 @@ const About = () => {
           desc="Next-gen dashboards go beyond traditional charts and graphs, utilizing advanced visualization techniques such as heatmaps, network graphs, and 3D representations to convey complex relationships in the data."
         ></ImageDesc>
         <Image
-          className="bg-gradient-to-b from-cyan to-purple-500 py-20 pl-10 rounded-md w-[40%] smm:w-full h-auto my-8 mr-32"
+          className="bg-gradient-to-b from-cyann to-purple-500 py-20 pl-10 rounded-md w-[40%] smm:w-full h-auto my-8 mr-32"
           src={Graph1}
           alt="graph"
         />
@@ -40,7 +40,7 @@ const About = () => {
 
       <div className="flex smm:grid w-[100%] smm:w-[90%] my-0 mx-auto">
         <Image
-          className="visible smm:hidden bg-gradient-to-b from-cyan to-purple-500 px-10 rounded-md pt-10 w-[40%] smm:w-full h-auto my-8 ml-32 smm:mx-0"
+          className="visible smm:hidden bg-gradient-to-b from-cyann to-purple-500 px-10 rounded-md pt-10 w-[40%] smm:w-full h-auto my-8 ml-32 smm:mx-0"
           src={Graph2}
           alt="graph2"
         />
@@ -49,7 +49,7 @@ const About = () => {
           desc="Next-gen dashboards go beyond traditional charts and graphs, utilizing advanced visualization techniques such as heatmaps, network graphs, and 3D representations to convey complex relationships in the data."
         ></ImageDesc>
         <Image
-          className="hidden smm:visible bg-gradient-to-b from-cyan to-purple-500 px-10 rounded-md pt-10 w-[40%] smm:w-full h-auto my-8 ml-32 smm:mx-0"
+          className="hidden smm:visible bg-gradient-to-b from-cyann to-purple-500 px-10 rounded-md pt-10 w-[40%] smm:w-full h-auto my-8 ml-32 smm:mx-0"
           src={Graph2}
           alt="graph2"
         />
@@ -61,7 +61,7 @@ const About = () => {
           desc="Next-gen dashboards go beyond traditional charts and graphs, utilizing advanced visualization techniques such as heatmaps, network graphs, and 3D representations to convey complex relationships in the data."
         ></ImageDesc>
         <Image
-          className="bg-gradient-to-b from-cyan to-purple-500 pt-20 pl-28 rounded-md w-[40%] smm:w-full h-auto my-8 mr-32"
+          className="bg-gradient-to-b from-cyann to-purple-500 pt-20 pl-28 rounded-md w-[40%] smm:w-full h-auto my-8 mr-32"
           src={Graph3}
           alt="graph"
         />
