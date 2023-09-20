@@ -101,7 +101,7 @@ export default function NavbarSide() {
         <NavbarItem>
           <Button
             as={Link}
-            className="bg-white grid-flow-row shadow-3xl shadow-white text-black rounded-full w-[120%]"
+            className="bg-white grid-flow-row shadow-3xl  shadow-white text-black rounded-full w-[120%] smm:w-auto"
             href="#"
             variant="flat"
             color="default"

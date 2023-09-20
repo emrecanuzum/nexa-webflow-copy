@@ -13,14 +13,14 @@ const About = () => {
     <main>
       <div className="flex-col my-0 mx-auto">
         <div className="flex smm:grid my-0 mx-auto text-center justify-center">
-          <h2 className=" flex text-4xl lg:text-5xl  text-center font-bold">
+          <h2 className=" flex text-5xl smm:text-4xl text-center font-bold">
             Intelligent
           </h2>
-          <div className="flex pl-2 lg:pl-4 text-4xl md:text-5xl text-center font-bold text-transparent line bg-clip-text bg-gradient-to-r from-purple-500 to-cyann">
+          <div className="flex pl-2 lg:pl-4 text-5xl smm:text-4xl text-center font-bold text-transparent line bg-clip-text bg-gradient-to-r from-purple-500 to-cyann">
             Deep ML
           </div>
         </div>
-        <p className="text-center font-thin lg:text-xl sm:text-base p-10 sm:w-[100%] lg:w-[60%] my-0 mx-auto">
+        <p className="text-center font-extralight text-xl smm:text-base p-10 w-[45%] smm:w-[100%] my-0 mx-auto">
           Our AI dashboard leverages machine learning algorithms to analyze
           data, identify patterns, and make predictions.
         </p>
